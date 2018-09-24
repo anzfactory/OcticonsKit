@@ -54,10 +54,10 @@ public extension UIImage {
     let attributedString = NSAttributedString(
       string: String.octicon(with: name),
       attributes: [
-        NSAttributedStringKey.font: UIFont.octicon(of: fontSize),
-        NSAttributedStringKey.foregroundColor: textColor,
-        NSAttributedStringKey.backgroundColor: backgroundColor,
-        NSAttributedStringKey.paragraphStyle: paragraph
+        .font: UIFont.octicon(of: fontSize),
+        .foregroundColor: textColor,
+        .backgroundColor: backgroundColor,
+        .paragraphStyle: paragraph
       ]
     )
 
